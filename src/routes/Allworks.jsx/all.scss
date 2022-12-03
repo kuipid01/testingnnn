@@ -1,0 +1,88 @@
+.navdiss{
+    display: none;
+}
+.allCont{
+    width: 100%;
+    height: max-content;
+    background-color: greenyellow;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   .container{
+       width: 100%;
+       height: max-content;
+       padding: 10rem 1rem;
+       display: flex;
+       flex-wrap: wrap;
+      justify-content: center;
+      h1{
+        color: rgb(44, 44, 44);
+        margin-bottom: 1.3rem;
+      }
+       .innercont{
+           min-width: 100%;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-wrap: wrap;
+           min-height: max-content;
+           max-height: max-content;
+         div{
+            width: 30%;
+            height: 280px;
+          
+            margin: 0 1.5rem 1.5rem 0;
+            @media screen and (max-width:755px) {
+                min-width: 200px;
+                 }
+                 @media screen and (max-width:555px) {
+                    min-width: 170px;
+                    height: 250px;
+                     }
+                     @media screen and (max-width:405px) {
+                        min-width: 150px;
+                        height: 180px;
+                         }
+            a{
+                border-radius: 10px;
+                display: flex;
+                width: 100%;
+                height: 100%;
+                background-color: grey;
+               
+                .box{
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: 80%;
+                        border-radius: 10px;
+                        border-bottom-left-radius: 0;
+                        border-bottom-right-radius: 0;
+                        object-fit: cover;
+                    }
+                    .title{
+                       
+                        text-align: center;
+                        line-height: 1;
+                        height: 20%;
+                        width: 100%;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        @media screen and (max-width:655px) {
+                            padding: 0 0;
+
+                             }
+                           
+                    }
+                }
+                           }
+         }
+           
+           
+       }
+   }
+}
